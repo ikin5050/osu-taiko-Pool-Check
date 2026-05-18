@@ -6,9 +6,9 @@ Thanks to the (osu! Tournament Rating project)[https://otr.stagec.net/] for open
 
 The vision is that people can/will use this to check whether specific maps have been pooled before (filter by map_id) or as a more general record for taiko tournament history.
 
-## If you think there are tournaments missing, add an issue on github and I'll try add them. **
+### If you think there are tournaments missing, add an issue on github and I'll try add them. **
 
-To view and query the database:
+## To view and query the database:
 
 * Add [SQLite viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer) extension to VSCode (you can then just open the .db file in VSCode) <- personal favorite
 * Use a [webviewer](https://sqliteviewer.app/)
