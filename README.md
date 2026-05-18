@@ -2,7 +2,7 @@
 
 This database contains (almost) all maps pooled in an osu!taiko tournament. The dataset is based on the [o!TR public datasets](https://data.otr.stagec.net/), but because that doesn't actually say what slot a map was used in, I have replaced a bunch of tournaments and added specific slot names. This has only happened for about 80/200 tourneys. If you see a map with slot 'NM50', that just means it was a no-mod pick. Deducing freemod picks was tricky, and I don't think I did it right so they maybe a bit iffy.
 
-Thanks to the (osu! Tournament Rating project)[https://otr.stagec.net/] for open-sourcing their dataset. It made it significantly faster to complete as I kinda lost hope after doing 80 pools manually. This project is not affiliated with, endorsed by, or officially represents the o!TR project.
+Thanks to the [osu! Tournament Rating project](https://otr.stagec.net/) for open-sourcing their dataset. It made it significantly faster to complete as I kinda lost hope after doing 80 pools manually. This project is not affiliated with, endorsed by, or officially represents the o!TR project.
 
 The vision is that people can/will use this to check whether specific maps have been pooled before (filter by map_id) or as a more general record for taiko tournament history.
 
