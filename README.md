@@ -2,32 +2,14 @@ This database contains (almost) all maps pooled in an osu!taiko tournament. The 
 
 Thanks to the (osu! Tournament Rating project)[https://otr.stagec.net/] for open-sourcing their dataset. It made it significantly faster to complete as I kinda lost hope after doing 80 pools manually. This project is not affiliated with, endorsed by, or officially represents the o!TR project.
 
-<details>
-  <summary>o!TR terms of use</summary>
-  osu! Tournament Rating (o!TR) Dataset Terms of Use
-
-  By accessing or using this dataset, you agree to the following terms.
-  
-  Requirements
-  
-  1. Attribution
-  Any permitted use of this dataset must include clear and visible credit to the osu! Tournament Rating project, with a link to this URL: https://otr.stagec.net/
-  
-  2. No Impersonation
-  You may not use this dataset in any way that implies affiliation with, endorsement by, or official representation of o!TR without explicit written permission.
-  
-  3. Redistribution
-  You may re-host, republish, or redistribute this dataset exactly as-is, provided a copy of these terms are included with the copies and all checksums are included and unmodified.
-</details>
-
 To view and query the database:
 
-* Add [SQLite viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer) extension to VSCode (you can then just open the .db file in VSCode)
+* Add [SQLite viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer) extension to VSCode (you can then just open the .db file in VSCode) <- personal favorite
 * Use a [webviewer](https://sqliteviewer.app/)
 * Add [datasette](https://pypi.org/project/datasette/) to your python environment and run ``datasette database.db``. It will open on localhost and can be accessed through a web browser.
 * (DB Browser for SQLite)[https://sqlitebrowser.org/] if you like the look of a spreadsheet.
 
-When using datasette or DB Browser, you will need to query using SQL. There are some GPT generated example queries included in ``example queries.sql``.
+When using datasette or DB Browser, you will need to query using SQL. There are some GPT-generated example queries included in ``example queries.sql``.
 
 <details>
 <summary>Included tournaments</summary>
@@ -235,4 +217,22 @@ Vietnam osu_taiko Tournament 3
 Vietnam osu_taiko Tournament 4
 Vietnam osu_taiko Tournament 5
 _gts Taiko All Rounder Tournament
+</details>
+
+<details>
+  <summary>o!TR terms of use</summary>
+  osu! Tournament Rating (o!TR) Dataset Terms of Use
+
+  By accessing or using this dataset, you agree to the following terms.
+  
+  Requirements
+  
+  1. Attribution
+  Any permitted use of this dataset must include clear and visible credit to the osu! Tournament Rating project, with a link to this URL: https://otr.stagec.net/
+  
+  2. No Impersonation
+  You may not use this dataset in any way that implies affiliation with, endorsement by, or official representation of o!TR without explicit written permission.
+  
+  3. Redistribution
+  You may re-host, republish, or redistribute this dataset exactly as-is, provided a copy of these terms are included with the copies and all checksums are included and unmodified.
 </details>
